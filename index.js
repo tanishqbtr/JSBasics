@@ -30,3 +30,13 @@ console.log(person);
 person.name= 'Tanishq Again!'
 
 console.log(person);
+
+let selectedColors = ['red', 'blue'];
+
+console.log(selectedColors.length);
+
+function greet(name1){
+    console.log('Hello ' + name1);
+}
+
+greet('John');
